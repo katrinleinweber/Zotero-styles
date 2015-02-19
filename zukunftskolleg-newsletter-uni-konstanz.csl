@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="never">
+<!-- This style was edited with the Visual CSL Editor (http://editor.citationstyles.org/visualEditor/) -->
+  <info>
+    <title>Newsletter of the Zukunftskolleg at the University of Konstanz</title>
+    <title-short>ZuKo Newsletter UniKN</title-short>
+    <id>http://www.zotero.org/styles/newsletter-of-the-zukunftskolleg-at-the-university-of-konstanz</id>
+    <link rel="self" href="http://www.zotero.org/styles/newsletter-of-the-zukunftskolleg-at-the-university-of-konstanz"/>
+    <author>
+      <name>Katrin Leinweber</name>
+      <email>katrin.leinweber@uni-konstanz.de</email>
+      <uri>https://github.com/katrinleinweber</uri>
+    </author>
+    <updated>2015-02-19T13:02:47+00:00</updated>
+  </info>
+  <citation>
+    <layout/>
+  </citation>
+  <bibliography>
+    <layout>
+      <group delimiter=" ">
+        <text variable="title"/>
+        <names variable="author" prefix="(" suffix=");">
+          <name form="short" and="symbol" et-al-min="4" et-al-use-first="2" et-al-use-last="true"/>
+        </names>
+        <text value="in:"/>
+        <choose>
+          <if match="any" variable="container-title">
+            <text variable="container-title"/>
+          </if>
+          <else-if match="any" variable="publisher">
+            <text variable="publisher" suffix=","/>
+            <text variable="publisher-place"/>
+          </else-if>
+        </choose>
+        <date form="text" variable="issued" prefix="(" suffix=")"/>
+        <choose>
+          <if match="any" variable="URL">
+            <text variable="URL"/>
+          </if>
+          <else-if match="any" variable="DOI">
+            <text variable="DOI" prefix="http://dx.doi.org/"/>
+          </else-if>
+          <else/>
+        </choose>
+      </group>
+    </layout>
+  </bibliography>
+</style>
