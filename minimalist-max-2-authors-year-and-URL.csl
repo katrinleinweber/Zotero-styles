@@ -26,7 +26,7 @@
           <text variable="URL" />
         </if>
         <else>
-          <text variable="DOI" prefix="http://dx.doi.org/"/>
+          <text variable="DOI" prefix="https://dx.doi.org/"/>
         </else>
       </choose>
       </group>
