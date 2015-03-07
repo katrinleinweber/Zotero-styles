@@ -93,7 +93,7 @@
       <key variable="issued"/>
     </sort>
     <layout>
-      <text macro="author" prefix="1. "/>
+      <text macro="author" prefix="* "/>
       <date variable="issued" prefix=" " suffix=". ">
         <date-part name="year"/>
       </date>
