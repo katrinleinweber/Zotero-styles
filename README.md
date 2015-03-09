@@ -1,5 +1,5 @@
 # Read Me
-Some custom citation styles (self-made or derived) for use in reference managers
+Some self-made or derived citation styles. Licenses are listed under `<rights...` of each .csl file. If not, and I alone am listed under `<author>`, please consider the style to be licensed [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 
 ### Minimalistic [`minimalist-max-2-authors-year-and-URL.csl`](minimalist-max-2-authors-year-and-URL.csl)
 Just for quickly pasting references into email, chat, etc. Max. 2 authors and year, because it's common; URL because it's unambiguous.
