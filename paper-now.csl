@@ -49,14 +49,16 @@
     </names>
   </macro>
   <macro name="title">
+  <group prefix="[" suffix="]">    
     <choose>
       <if type="bill book graphic legal_case legislation motion_picture report song" match="any">
         <text variable="title" font-style="italic"/>
       </if>
       <else>
-        <text variable="title" prefix=" [" suffix="]"/>
+        <text variable="title"/>
       </else>
     </choose>
+  </group>
   </macro>
   <macro name="access">
    <group prefix="(" suffix=")">
@@ -65,7 +67,7 @@
        <text variable="URL"/>
      </if>
      <else>
-      <text variable="DOI" prefix="http://dx.doi.org/"/>
+      <text variable="DOI" prefix="https://dx.doi.org/"/>
      </else>
     </choose>
    </group>
@@ -91,12 +93,12 @@
       <key variable="issued"/>
     </sort>
     <layout>
-      <text macro="author" prefix="1. "/>
-      <date variable="issued" prefix=" " suffix=".">
+      <text macro="author" prefix="* "/>
+      <date variable="issued" prefix=" " suffix=". ">
         <date-part name="year"/>
       </date>
       <text macro="title"/>
-      <text macro="access" suffix="."/>
+      <text macro="access"/>
     </layout>
   </bibliography>
 </style>

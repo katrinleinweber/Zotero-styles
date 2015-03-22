@@ -39,7 +39,7 @@
             <text variable="URL"/>
           </if>
           <else-if match="any" variable="DOI">
-            <text variable="DOI" prefix="http://dx.doi.org/"/>
+            <text variable="DOI" prefix="https://dx.doi.org/"/>
           </else-if>
           <else/>
         </choose>
