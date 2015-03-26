@@ -3,7 +3,7 @@
   <info>
     <title>Public Library of Science (with URLs/DOIs in MarkDown)</title>
     <title-short>PLoS-MD</title-short>
-    <id>http://www.zotero.org/styles/plos</id>
+    <id>http://www.zotero.org/styles/paper-now</id>
     <link href="http://www.zotero.org/styles/plos" rel="template"/>
     <link href="http://www.plosone.org/static/guidelines#references" rel="documentation"/>
     <author>
