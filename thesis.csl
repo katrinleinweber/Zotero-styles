@@ -13,7 +13,7 @@
 	<author>
       <name>Katrin Leinweber</name>
     </author>
-    <category citation-format="numeric"/>
+    <category citation-format="author-date"/>
     <category field="science"/>
     <summary>Citation style for Katrin Leinweber's PhD thesis</summary>
     <updated>2015-03-27</updated>
@@ -32,7 +32,7 @@
   </locale>
   <macro name="author">
     <names variable="author">
-      <name sort-separator=" " initialize-with="" name-as-sort-order="all" delimiter=", " delimiter-precedes-last="always"/>
+      <name form="short"/>
       <label form="long" prefix=", "/>
       <substitute>
         <names variable="editor"/>
@@ -47,7 +47,7 @@
         </if>
       </choose>
       <names variable="editor" suffix=".">
-        <name sort-separator=" " initialize-with="" name-as-sort-order="all" delimiter=", " delimiter-precedes-last="always"/>
+        <name form="short" sort-separator=" " initialize-with="" name-as-sort-order="all" delimiter=", " delimiter-precedes-last="always"/>
         <label form="long" prefix=", "/>
       </names>
     </group>
@@ -270,12 +270,22 @@
       </if>
     </choose>
   </macro>
-  <citation collapse="citation-number">
+  <citation delimiter-precedes-last="never" et-al-min="3" et-al-use-first="1" disambiguate-add-year-suffix="true" collapse="year-suffix" year-suffix-delimiter=",">
     <sort>
-      <key variable="citation-number"/>
+      <key variable="author"/>
+      <key variable="issued"/>
     </sort>
-    <layout prefix="[" suffix="]" delimiter=",">
-      <text variable="citation-number"/>
+    <layout prefix="[" suffix="]" delimiter="; ">
+      <group delimiter=", ">
+        <text macro="author"/>
+        <date variable="issued">
+          <date-part name="year"/>
+        </date>
+        <group>
+          <label variable="locator" form="short"/>
+          <text variable="locator" prefix=" "/>
+        </group>
+      </group>
     </layout>
   </citation>
   <bibliography et-al-min="4" et-al-use-first="2" second-field-align="flush">
