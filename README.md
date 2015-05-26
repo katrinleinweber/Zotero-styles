@@ -5,7 +5,7 @@ Some self-made or derived citation styles. Licenses are listed under `<rights...
 Just for quickly pasting references into email, chat, etc. Max. 2 authors and year, because it's common; URL because it's unambiguous.
 
 ### Paper Now [`paper-now.csl`](paper-now.csl)
-For [PeerJ's Paper Now](https://github.com/PeerJ/paper-now) experiment. Uses `([Author, Year](URL/DOI))` in text and `Authors. Year. [Title](URL/DOI).` in bibliography. Discussed in https://github.com/PeerJ/paper-now/issues/3.
+For [PeerJ's Paper Now](https://github.com/PeerJ/paper-now) experiment. Uses `([Author, Year](URL/DOI))` in text and `Authors. Year. [Title](URL/DOI).` in bibliography. Discussed on [PeerJ/paper-now](https://github.com/PeerJ/paper-now/issues/3) & used in [this example]( https://github.com/katrinleinweber/Paper-Now-Achmi-capsule-microstructure/commit/fa950d8220d31d3f2d649bd07313f269a9743d59.). 
 
 ### PLoS with MarkDown-URLs/DOIs [`plos-with-markdown-urls-dois.csl`](plos-with-markdown-urls-dois.csl)
 Also inspired by [PeerJ's Paper Now](https://github.com/PeerJ/paper-now) experiment and derived from [PLoS.csl](https://github.com/citation-style-language/styles/blob/master/plos.csl). Uses `[1]`, `[2]`, etc. in text and `[1]: https://dx.doi.org/...` in bibliography.
