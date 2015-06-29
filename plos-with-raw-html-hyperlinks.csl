@@ -27,7 +27,7 @@
   <layout>
    <choose>
     <if type="article-journal">
-     <names variable="author">
+     <names variable="author" prefix="&lt;li&gt;">
       <name sort-separator=" " delimiter=", " delimiter-precedes-last="contextual"/>
       <label form="short" prefix=", "/>
      </names>
@@ -38,7 +38,7 @@
      <text variable="title" suffix="&lt;/a&gt;" />
      <text variable="container-title" form="long" prefix=" (" suffix=") "/>
      <text variable="DOI" prefix="DOI: &lt;a href=&quot;https://dx.doi.org/" suffix="&quot;&gt;"/>
-     <text variable="DOI" suffix="&lt;/a&gt;"/>
+     <text variable="DOI" suffix="&lt;/a&gt;&lt;/li&gt;"/>
     </if>
     <else-if match="any" type="webpage motion_picture article-newspaper post-weblog post">
      <names variable="author">
