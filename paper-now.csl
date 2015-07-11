@@ -16,7 +16,7 @@
     </author>
     <category citation-format="author-date"/>
     <summary>unofficial style for PeerJ's Paper Now experiment</summary>
-    <updated>2015-03-06</updated>
+    <updated>2015-03-06T12:00:00Z</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
