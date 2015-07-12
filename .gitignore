@@ -8,6 +8,7 @@ chicago-author-date.csl
 chicago-fullnote-bibliography.csl
 chicago-note-bibliography.csl
 elsevier-harvard.csl
+frontiers.csl
 ieee.csl
 journal-of-phycology.csl
 modern-humanities-research-association.csl
@@ -16,3 +17,4 @@ nature.csl
 peerj.csl
 plos.csl
 vancouver.csl
+
