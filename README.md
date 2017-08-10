@@ -17,7 +17,7 @@ For [PeerJ's Paper Now](https://github.com/PeerJ/paper-now) experiment. Uses `([
 #### PLoS with MarkDown-URLs/DOIs
 [`plos-with-markdown-urls-dois.csl`](plos-with-markdown-urls-dois.csl)
 
-Also inspired by [PeerJ's Paper Now](https://github.com/PeerJ/paper-now) experiment and derived from [PLoS.csl](https://github.com/citation-style-language/styles/blob/master/plos.csl). Uses `[1]`, `[2]`, etc. in text and `[1]: https://dx.doi.org/...` in bibliography.
+Also inspired by [PeerJ's Paper Now](https://github.com/PeerJ/paper-now) experiment and derived from [PLoS.csl](https://github.com/citation-style-language/styles/blob/master/plos.csl). Uses `[1]`, `[2]`, etc. in text and `[1]: https://doi.org/...` in bibliography.
 
 
 #### PLoS with raw-HTML hyperlinks

@@ -71,7 +71,7 @@
   <macro name="access">
     <choose>
       <if variable="DOI">
-        <text variable="DOI" prefix="https://dx.doi.org/" suffix=" "/>
+        <text variable="DOI" prefix="https://doi.org/" suffix=" "/>
       </if>
       <else-if variable="URL">
         <group delimiter=". ">
