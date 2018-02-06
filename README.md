@@ -3,7 +3,7 @@ Some self-made or derived citation styles. Licenses are listed under `<rights...
 
 
 #### Minimalistic
-[`minimalist-max-2-authors-year-and-URL.csl`](minimalist-max-2-authors-year-and-URL.csl)
+[`minimalist.csl`](minimalist.csl)
 
 Just for quickly pasting references into email, chat, etc. Max. 2 authors and year, because it's common; URL because it's unambiguous.
 
@@ -21,7 +21,7 @@ Also inspired by [PeerJ's Paper Now](https://github.com/PeerJ/paper-now) experim
 
 
 #### PLoS with raw-HTML hyperlinks
-[`plos-with-raw-html-hyperlinks.csl`](plos-with-raw-html-hyperlinks.csl)
+[`plos-with-raw-hyperlink.csl`](plos-with-raw-hyperlink.csl)
 
 For inserting only bibliography entries into WordPress text edit mode or other raw HTML editors. Structure: `full author names (year) <a href="URL">Title</a> (Journal) DOI: <a href="DOI">DOI</a>`
 
